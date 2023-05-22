@@ -1,4 +1,142 @@
-aside    {
-    font-style: italic;
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgVxIIzI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+aside {
+  font-style: italic;
+}
 
+h1, .my-heading {
+  font-size: 6.5em;
+  text-transform: uppercase;
+  text-align: center;
+}
+h2, .my-heading {
+  font-size: 4em;
+  text-align: center;
+  text-transform: uppercase;
+}
+h3, .my-heading {
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+}
+h4, .my-heading {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+}
+h5 .my-heading {
+  text-align: 1.2em;
+  line-height: 1em;
+} 
+.nav-bar {
+  background-color: rgb(11, 11, 141);
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+.nav-bar li {
+  display: inline;
+  margin-right: 270px;
+}
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  background-color: darkblue;
+}
+.nav-bar li {
+  display: inline;
+}
+.header {
+  background-image: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;}
+.header h2 {
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+  font-size: 2.5em;
+}
+.quote {
+  font-size: 20px;
+}
+.dark-background {
+  background-color: darkblue;
+  color: white;
+}
+
+.general-information p {
+  font-size: 1em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.general-information a.link-btn {
+  background-color: blue;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+}
+.service-box {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.service-box img {
+  width: 125px;
+}
+.div-bolt{
+  background-color: darkblue;
+}
+
+.div-bolt{
+  font-size: 1.9em;
+  text-align: center;
+}
+
+.div-bolt{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.div-bolt{
+  width: 250px;
+  height: 180px;
+}
+.dark-background {
+  background-color: darkblue;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.9em;
+}
+
+.address {
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+.footer a {
+  color: blue;
+  text-decoration: none;
+}
+
+.footer ul {
+  list-style: none;
 }
